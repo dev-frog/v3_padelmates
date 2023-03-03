@@ -1,0 +1,21 @@
+_id: req_fb4ccdf3af8d4f8eaf54fbcda024211d
+type: Request
+parentId: wrk_f819f4659b9642f38b935672647f1c4c
+modified: 1677387642145
+created: 1677386008009
+url: "{{ _.server_url }}/tournament/getTraining"
+name: get_Training
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1677170291041
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

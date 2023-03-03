@@ -1,0 +1,83 @@
+_id: req_600fee0161404b0fb4d3e6663f91abde
+type: Request
+parentId: wrk_f819f4659b9642f38b935672647f1c4c
+modified: 1677387083981
+created: 1677384265970
+url: "{{ _.local_url }}/tournament"
+name: Create_Tournament
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	
+    	
+    		"type": "tournament",
+        "name": "Osama Shakir",
+        "email": "osamashakir909@yahoo.com",
+        "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1633136…",
+        "fcmToken": "fTQSSbBbaEkXrPs8zwwNoG:APA91bFg-fHlDTFlYqwc-ghwpYGsZsmAWGwbaYdSlrZzgrG…",
+        "date": "11 Aug, 2021",
+        "time": "02:45",
+        "title": "Asdfdsaf",
+
+        "level": [
+    			{
+            "name": "name9",
+            "img": 21,
+            "im": 9,
+            "des": "des9"
+        	}
+    		],
+        "timeEnd": "02:45",
+        "id": "1628459491702",
+        "timeEndReal": "02:45",
+        "dateStamp": 1628665200000,
+        "selectedTimeEndStamp": 1628459450967,
+        "selectedTimeStamp": 1628459450967,
+        "locations": "Torekov Padelsällskap ",
+        "public": false,
+        "comments": "This is a comment",
+        "isSingle": false,
+        "selectedpayment": "swish",
+        "amount": "100",
+        "numberOfPlayers": 12,
+        "number": "2343242323",
+        "bookedUser": 1,
+        "playerSelf": true,
+        "numberOfPoint": 23,
+        "timeStampReal": 1628631900000,
+        "gameCode": 230921,
+
+        "levelRange": [
+            {
+                "name": "name9",
+                "img": 21,
+                "im": 9,
+                "des": "des9"
+            },
+            {
+                "name": "name9",
+                "img": 21,
+                "im": 9,
+                "des": "des9"
+            }
+        ],
+        "lang": "en"
+
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677384265970
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

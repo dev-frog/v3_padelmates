@@ -1,0 +1,101 @@
+_id: req_24755bd2b4994bfa85dfa924089fa5db
+type: Request
+parentId: wrk_f819f4659b9642f38b935672647f1c4c
+modified: 1677386877579
+created: 1677385994854
+url: "{{ _.local_url }}/tournament"
+name: Create_Training
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+        "name": "center 72`",
+        "email": "center73@yopmail.com",
+        "profilePic": "",
+        "fcmToken": "dpybYOn7NcfF-Qn5PJMW1r:APA91bHygC6pESlJgv97hTDK6_LUtkjPxCAtu6E7aNT3iHT…",
+        "date": "20 Jun, 2022",
+        "time": "9:00",
+        "timeEnd": "10:00",
+        "title": "Bana med bollmaskin",
+        "currency": "USD",
+        "level": [
+            {
+                "name": "name3",
+                "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAA…",
+                "im": 3,
+                "des": "des3"
+            },
+            {
+                "name": "name3",
+                "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAA…",
+                "im": 3,
+                "des": "des3"
+            },
+            {
+                "name": "name3",
+                "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAA…",
+                "im": 3,
+                "des": "des3"
+            }
+        ],
+        "id": "1655366237433",
+        "playoff": false,
+        "timeEndReal": "2022-06-16T08:00:00.831Z",
+        "dateStamp": 1655676000000,
+        "selectedTimeEndStamp": 1655366400831,
+        "selectedTimeStamp": 1655362800399,
+        "locations": "Randi khaana",
+        "public": true,
+        "comments": "",
+        "isSingle": false,
+        "selectedpayment": "none",
+        "amount": "50",
+        "bookedEmail": [
+            "mdfuzail1833@gmail.com"
+        ],
+        "numberOfPlayers": 1,
+        "courtArr": [
+            {
+                "title": ""
+            }
+        ],
+        "bookedUser": 2,
+        "type": "training",
+        "numberOfRound": 8,
+        "cancelDate": 48,
+        "playerSelf": false,
+        "numberOfPoint": 32,
+        "timeStampReal": 1655712000000,
+        "gameCode": null,
+        "lang": "en",
+        "isCoach": "center",
+        "paid": true,
+        "centerProfile": {
+            "name": "center 72`",
+            "fcmToken": "dpybYOn7NcfF-Qn5PJMW1r:APA91bHygC6pESlJgv97hTDK6_LUtkjPxCAtu6E7aNT3iHT…",
+            "profilePic": "",
+            "email": "center73@yopmail.com"
+        },
+        "enableTeam": false,
+        "chatId": 1655366238474,
+        "profilePicArr": [
+            "https://lh3.googleusercontent.com/a/AATXAJzaXe_qh-pp55ONatA4TEydA5PiHr…"
+        ],
+        "matcheCreated": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677200858888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

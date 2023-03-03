@@ -1,0 +1,21 @@
+_id: req_631c02c7b0ed44938cccc2f02ae6b885
+type: Request
+parentId: wrk_f819f4659b9642f38b935672647f1c4c
+modified: 1677387651641
+created: 1677384421506
+url: "{{ _.server_url }}/tournament/getTournament"
+name: Get_Tournament
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1677261994582
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

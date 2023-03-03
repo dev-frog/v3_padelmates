@@ -1,0 +1,21 @@
+_id: req_739736ee3b3f4acf862e7a58fa247ef9
+type: Request
+parentId: wrk_f819f4659b9642f38b935672647f1c4c
+modified: 1677146871032
+created: 1677146611113
+url: "{{ _.server_url }}/activity"
+name: getActivity
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676492729286.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

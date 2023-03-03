@@ -1,0 +1,243 @@
+_id: req_9a8a9843495c41e3a15a21ba3b14596e
+type: Request
+parentId: wrk_f819f4659b9642f38b935672647f1c4c
+modified: 1677384323767
+created: 1677139723194
+url: "{{ _.local_url }}/activity"
+name: createActivity
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    		"date": "12 Jan, 2023",
+        "time": "22:00",
+        "level": [
+          {
+            "name": "name7",
+            "img": 12,
+            "im": 7,
+            "des": "des7"
+          },
+          {
+            "name": "name6",
+            "img": 11,
+            "im": 6,
+            "des": "des6"
+          }
+        ],
+        "timeEnd": "22:00",
+        "id": "1673256415486",
+        "timeEndReal": "22:00",
+        "dateStamp": 1673262000000,
+        "selectedTimeEndStamp": 1673298052000,
+        "selectedTimeStamp": 1673290852000,
+        "locations": "PADEL ZENTER Årsta",
+        "public": true,
+        "private": false,
+
+        "comments": "",
+        "isSingle": false,
+        "friendly": false,
+        "coordinates": {
+          "lat": "59.2933404",
+          "long": "18.0367517"
+        },
+        "selectedpayment": "swish",
+        "amount": "1080",
+        "silent": false,
+        "totalAmount": "",
+        "selectedCurrency": [
+          {
+            "cc": "SEK",
+            "name": "Swedish krona"
+          }
+        ],
+        "currency": "SEK",
+        "selectedPercentage": 30,
+        "amountCenter": null,
+        "number": "0707988101",
+        "calId": "",
+        "new": true,
+        "pro": true,
+        "timeStampReal": 1673298000000,
+        "player1": {
+          "name": "Jesper Beyer",
+          "fcmToken": "ffYL6eqG8kQNg3ALCO3j9L:APA91bF7GKuKAj6JFxpxhERnaxBv9f08TwcRy-wkCQKYrEJcNN7zQrQlKB1LFkC0oORLO_6IbXQLXcVXHnwINUMkMVbUWcFF7hHz6BZqvb95cHIudsEgefIQruW_ugzlbboQCg6Mhiqh",
+          "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=10159017596379030&height=100&width=100&ext=1618919637&hash=AeTkCl9myb2fxTXQ6dc",
+          "level": {
+            "point": 800,
+            "name": "name8",
+            "img": 14,
+            "im": 8,
+            "des": "des8"
+          },
+          "points": 830,
+          "pro": true,
+          "count": 316,
+          "points_Notneeded": 750,
+          "points_needed": 850,
+          "ava": 9.909090909090908,
+          "ser": 10,
+          "pun": 7.5,
+          "availability": 9.909090909090908,
+          "punctuality": 7.5,
+          "seriousness": 10,
+          "email": "jesper.beyer@hotmail.com",
+          "lang": "sw"
+        },
+        "player2": {
+          "name": "Dio Mårtensson",
+          "fcmToken": "cP5tbeP7g0PmqfHmq4BJQH:APA91bHe3QgzbdROKF8yl-24AxytGKHTHnKB4ntc2oLUVKrkRaZTQfI_Ji9HreBFTu40DCLHcOfA6xqgh9PZtQ66XTVJ19FJlhu0nmHJz66a-ctur9ITKFNFGarGxZslEkSyEP3kim2A",
+          "profilePic": "https://uploads.padelmates.co/images/1E244C92-5426-40C6-A59B-1EC57F751C6F.jpg?alt=media&token=19d87c4d-e64b-4fbf-9dc2-4b7101721aac",
+          "level": {
+            "point": 700,
+            "name": "name7",
+            "img": 12,
+            "im": 7,
+            "des": "des7"
+          },
+          "points": 710,
+          "points_Notneeded": 650,
+          "points_needed": 750,
+          "ava": 10,
+          "ser": 10,
+          "pun": 6.931818181818182,
+          "pro": true,
+          "count": 72,
+          "availability": 10,
+          "punctuality": 6.931818181818182,
+          "seriousness": 10,
+          "email": "dio.maartensson@hotmail.com",
+          "lang": "sw"
+        },
+        "player4": {
+          "name": "Henrik Malborg ",
+          "fcmToken": "undefined",
+          "profilePic": "https://uploads.padelmates.co/images/C93A38C2-5B81-4638-BDF3-978989B2D6FF.jpg?alt=media&token=53903305-3f8a-48fd-8310-52bc4cd4cce9",
+          "level": {
+            "name": "name7",
+            "img": 12,
+            "im": 7,
+            "point": 700,
+            "des": "des7"
+          },
+          "points": 715,
+          "points_Notneeded": 450,
+          "points_needed": 550,
+          "ava": 10,
+          "count": 38,
+          "ser": 10,
+          "pun": 6.7727272727272725,
+          "availability": 10,
+          "punctuality": 6.7727272727272725,
+          "seriousness": 10,
+          "email": "strommamaleri@gmail.com",
+          "lang": "sw"
+        },
+        "player3": {
+          "name": "Peter Wågberg",
+          "fcmToken": "do7fc1-MVEV6qarB6ZLGYd:APA91bGl0YQ-eTrE4Ql7uAPAba1vkSGu_6ao4dMB5eRD3IlXAyDZNj_fEQy7nBTIPb9uFjMx6c1tRB7s2xQ-9fKRH_s5B2DWG_NuxPrr-uDaHbNBq9_Y3aQBXIaOau4pFHPAmbT8lJB3",
+          "profilePic": "https://uploads.padelmates.co/images/6386428C-8B4C-4B9D-AD6C-6C9CB860A3DD.jpg?alt=media&token=d508d14d-ddcf-4985-b53f-df95212da5a2",
+          "level": {
+            "name": "name7",
+            "img": 12,
+            "im": 7,
+            "point": 700,
+            "des": "des7"
+          },
+          "points": 710,
+          "points_Notneeded": 350,
+          "points_needed": 450,
+          "ava": 10,
+          "ser": 10,
+          "pun": 6.886363636363637,
+          "count": 30,
+          "availability": 10,
+          "punctuality": 6.886363636363637,
+          "seriousness": 10,
+          "email": "peter@winwindesign.se",
+          "lang": "sw"
+        },
+
+        "centerGame": null,
+        
+        "review": {
+            "reqeustList_Jesper Beyer": [
+                "patrik.esperstrand@smeg.se"
+              ],
+              "Henrik Malborg ": null,
+              "Peter Wågberg": null,
+              "Peter Wågberg_review": [
+                "jesper.beyer@hotmail.com",
+                "jesper.beyer@hotmail.com",
+                "dio.maartensson@hotmail.com",
+                "dio.maartensson@hotmail.com",
+                "strommamaleri@gmail.com"
+              ],
+              "Dio Mårtensson_review": [
+                  "jesper.beyer@hotmail.com",
+                  "jesper.beyer@hotmail.com",
+                  "peter@winwindesign.se",
+                  "peter@winwindesign.se",
+                  "strommamaleri@gmail.com"
+              ],
+              "Jesper Beyer_review": [
+                  "dio.maartensson@hotmail.com",
+                  "dio.maartensson@hotmail.com",
+                  "peter@winwindesign.se",
+                  "peter@winwindesign.se",
+                  "strommamaleri@gmail.com"
+              ],
+              "Henrik Malborg _review": [
+                  "jesper.beyer@hotmail.com",
+                  "jesper.beyer@hotmail.com",
+                  "dio.maartensson@hotmail.com",
+                  "dio.maartensson@hotmail.com",
+                  "peter@winwindesign.se"
+              ]
+        },
+
+
+
+
+        "swished": [
+            "peter@winwindesign.se",
+            "dio.maartensson@hotmail.com",
+            "strommamaleri@gmail.com"
+        ],
+        "feedbackGiven": [
+          "peter@winwindesign.se",
+          "dio.maartensson@hotmail.com",
+          "jesper.beyer@hotmail.com",
+          "strommamaleri@gmail.com"
+        ],
+        "status": "pending",
+        "resultRegisterTime": "2023-01-09T22:13:14.811Z",
+        "resultRegister": "true",
+        "team1Score": [
+          "6",
+          "6",
+          null
+        ],
+        "team2Score": [
+          "4",
+          "2",
+          null
+        ],
+        "winner": "team1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677139723194
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
